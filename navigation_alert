@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(window).on("beforeunload", function(){
+          return "";
+        });
+    });
+  </script>
+</head>
+<body>
+<div id="msg">Welcome to page1!</div><br/><br/>
+<a id = "page2-link" href="page2.html">Go to page2</a>
+</body>
+</html>
